@@ -7,6 +7,135 @@ body {
 }
 
 header {
+    background-color: #ffccf9; /* Light pink background */
+    padding: 20px 0; /* Add padding for spacing */
+    text-align: center; /* Center content horizontally */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+header h1 {
+    font-size: 36px; /* Bigger font size for "My Portfolio" */
+    font-weight: bold; /* Bold text */
+    color: #2c3e50; /* Dark blue text for contrast */
+    margin: 0; /* Remove default margin */
+}
+
+header nav ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+    margin: 10px 0 0; /* Add spacing below the title */
+    display: flex;
+    justify-content: center; /* Center navigation links horizontally */
+}
+
+header nav ul li {
+    margin: 0 15px; /* Add spacing between navigation links */
+}
+
+header nav ul li a {
+    color: #2c3e50; /* Dark blue text for links */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Slightly larger font size for links */
+    font-weight: 500; /* Medium font weight */
+}
+
+header nav ul li a:hover {
+    color: #f368e0; /* Light purple on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+footer {
+    background-color: #f368e0; /* Light purple footer */
+    color: white; /* White text for contrast */
+    padding: 20px;
+    text-align: center;
+}
+
+header p {
+    font-weight: bold;
+    font-size: 18px; /* Slightly larger font for emphasis */
+}
+
+header ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center list items horizontally */
+}
+
+header ul li {
+    margin: 0 15px; /* Add spacing between list items */
+}
+
+header ul li a {
+    color: white; /* White links */
+    text-decoration: none;
+    font-size: 20px; /* Regular font size for links */
+}
+
+header ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+a {
+    color: #f368e0; /* Light purple for links */
+}
+
+.image-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-section p {
+    margin-top: 10px;
+    font-style: italic;
+    color: #2c3e50; /* Dark blue text for contrast */
+}
+
+.image-section img {
+    display: block;
+    margin: 0 auto;
+}
+
+.page-content {
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+.card {
+    background-color: white; /* White background for cards */
+    border: 3px solid #ff9ff3; /* Light pink border */
+    border-radius: 10px; /* Rounded corners */
+    width: 70%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: 0.3s;
+}
+
+.card-header {
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: 700;
+    border-bottom: 2px solid #ff9ff3; /* Light pink border */
+    background-color: #ff9ff3; /* Light pink background */
+    color: white; /* White text */
+}
+
+.card-body {
+    padding: 20px;
+    color: #2c3e50; /* Dark blue text */
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 20px;
+    padding: 0;
+    background: linear-gradient(to right, #ff9ff3, #f368e0); /* Pastel pink to purple gradient */
+    color: #2c3e50; /* Dark blue text for contrast */
+}
+
+header {
     background-color: #ff9ff3; /* Light pink header */
     color: white; /* White text for contrast */
     padding: 20px;
@@ -84,7 +213,7 @@ a {
 .card-header {
     text-align: center;
     padding: 15px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     border-bottom: 2px solid #ff9ff3; /* Light pink border */
     background-color: #ff9ff3; /* Light pink background */
@@ -94,4 +223,9 @@ a {
 .card-body {
     padding: 20px;
     color: #2c3e50; /* Dark blue text */
+}
+
+.card:hover {
+    background-color: #f8f8f8; /* Light gray background on hover */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
 }
