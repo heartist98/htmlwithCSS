@@ -95,8 +95,3 @@ a {
     padding: 20px;
     color: #2c3e50; /* Dark blue text */
 }
-
-.card:hover {
-    background-color: #f8f8f8; /* Light gray background on hover */
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
-}
