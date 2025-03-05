@@ -4,11 +4,11 @@ body {
     margin: 20px;
     padding: 0;
     color: black;
-    background-color: #f7879a;
+    background-color: #34495e;
 }
 
 header {
-    background-color: #D291BC; /* Dark background for the header */
+    background-color: #D291BC; 
     color: white;
 }
 
@@ -41,6 +41,10 @@ header ul li a:hover {
 
     text-decoration: underline;
 
+}
+
+a {
+    color: #3498db; /* Blue color for links */
 }
 
 .image-section {
