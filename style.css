@@ -202,7 +202,7 @@ a {
 
 .card {
     background-color: white; /* White background for cards */
-    border: 3px solid #ff9ff3; /* Light pink border */
+    border: 3px solid #c185dd; /* Light pink border */
     border-radius: 10px; /* Rounded corners */
     width: 70%;
     margin: 20px auto;
@@ -227,5 +227,5 @@ a {
 
 .card:hover {
     background-color: #f8f8f8; /* Light gray background on hover */
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9); /* Deeper shadow on hover */
 }
