@@ -104,7 +104,7 @@ a {
 
 .card {
     background-color: white; /* White background for cards */
-    border: 3px solid #ff9ff3; /* Light pink border */
+    border: 3px solid #ea9fff; /* Light pink border */
     border-radius: 10px; /* Rounded corners */
     width: 70%;
     margin: 20px auto;
@@ -118,7 +118,7 @@ a {
     font-size: 30px;
     font-weight: 700;
     border-bottom: 2px solid #ff9ff3; /* Light pink border */
-    background-color: #ff9ff3; /* Light pink background */
+    background-color: #ab5ccf; /* Light pink background */
     color: white; /* White text */
 }
 
@@ -202,7 +202,7 @@ a {
 
 .card {
     background-color: white; /* White background for cards */
-    border: 3px solid #c185dd; /* Light pink border */
+    border: 3px solid #a263c0;
     border-radius: 10px; /* Rounded corners */
     width: 70%;
     margin: 20px auto;
@@ -221,11 +221,11 @@ a {
 }
 
 .card-body {
-    padding: 20px;
+    padding: 70px;
     color: #2c3e50; /* Dark blue text */
 }
 
 .card:hover {
     background-color: #f8f8f8; /* Light gray background on hover */
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9); /* Deeper shadow on hover */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8); /* Deeper shadow on hover */
 }
