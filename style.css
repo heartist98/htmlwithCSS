@@ -1,96 +1,102 @@
 body {
-
-    font-family: "Times New Roman", Times, Serif;
+    font-family: "Times New Roman", Times, serif;
     margin: 20px;
     padding: 0;
-    color: black;
-    background: linear-gradient(to right, #3498db, #9b59b6);
-    color: white; 
+    background: linear-gradient(to right, #ff9ff3, #f368e0); /* Pastel pink to purple gradient */
+    color: #2c3e50; /* Dark blue text for contrast */
 }
 
 header {
-    background-color: #blue; 
-    color: white;
+    background-color: #ff9ff3; /* Light pink header */
+    color: white; /* White text for contrast */
+    padding: 20px;
+    text-align: center;
 }
 
 footer {
-    background-color: #333; 
-    color: white;
+    background-color: #f368e0; /* Light purple footer */
+    color: white; /* White text for contrast */
+    padding: 20px;
+    text-align: center;
 }
 
 header p {
-
     font-weight: bold;
-
+    font-size: 18px; /* Slightly larger font for emphasis */
 }
 
 header ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center list items horizontally */
+}
 
-    list-style-type: disc;
-    padding-left: 20px;
-
+header ul li {
+    margin: 0 15px; /* Add spacing between list items */
 }
 
 header ul li a {
-
-      color: purple;
-      text-decoration: none;
-
+    color: white; /* White links */
+    text-decoration: none;
+    font-size: 16px; /* Regular font size for links */
 }
 
 header ul li a:hover {
-
-    text-decoration: underline;
-
+    text-decoration: underline; /* Underline on hover */
 }
 
 a {
-    color: #3498db; /* Blue color for links */
+    color: #f368e0; /* Light purple for links */
 }
 
 .image-section {
-
     text-align: center;
     margin: 20px 0;
 }
 
 .image-section p {
-
     margin-top: 10px;
     font-style: italic;
-
+    color: #2c3e50; /* Dark blue text for contrast */
 }
 
 .image-section img {
-    display: block; 
-    margin: 0 auto; 
+    display: block;
+    margin: 0 auto;
 }
 
-.page-content{
-    padding-top:30px;
+.page-content {
+    padding-top: 30px;
     overflow: hidden;
-    }
-    .card {
- 
-    border: 3px solid teal;
-    border-radius: 5px;
+}
+
+.card {
+    background-color: white; /* White background for cards */
+    border: 3px solid #ff9ff3; /* Light pink border */
+    border-radius: 10px; /* Rounded corners */
     width: 70%;
-    margin-top:20px auto;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 20px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1); /* Soft shadow */
     transition: 0.3s;
-    width: 70%; 
-    margin: 0 auto;
-    }
-    .card-header{
+}
+
+.card-header {
     text-align: center;
-    padding:1%;
+    padding: 15px;
     font-size: 20px;
     font-weight: 700;
-    border-bottom: 2px solid rgb(192, 192, 192);
-    }
-    .card-body{padding:5%;}
+    border-bottom: 2px solid #ff9ff3; /* Light pink border */
+    background-color: #ff9ff3; /* Light pink background */
+    color: white; /* White text */
+}
 
-    .card:hover {
-    background-color: #ecf0f1; /* Light gray background on hover */
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    }
+.card-body {
+    padding: 20px;
+    color: #2c3e50; /* Dark blue text */
+}
+
+.card:hover {
+    background-color: #f8f8f8; /* Light gray background on hover */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
